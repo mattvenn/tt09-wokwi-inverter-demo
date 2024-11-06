@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     413834883798435841       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "single inverter"      # Project title
+  author:       "Matt Venn"      # Your name
+  discord:      "mattvenn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "single inverter drives 4 output leds"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,7 +15,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "input"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -25,10 +25,10 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "inverted"
+  uo[1]: "inverted"
+  uo[2]: "inverted"
+  uo[3]: "inverted"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
