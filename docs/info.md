@@ -9,12 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Use one inverter on input 0, the output drives first 4 LEDs
 
 ## How to test
 
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+* Set the first input dip switch to be on and the first 4 outputs should be off.
+* Set the first input dip switch to be off and the first 4 outputs should be on.
